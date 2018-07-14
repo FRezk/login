@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="src/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/css/login.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
         <title>id8 :: Login</title>
     </head>
     <body>
@@ -12,12 +13,40 @@
             <div class="container"></div>
                 <div class="col-12" >
                     <nav class='navbar navbar-light custom-navbar'>
-                        <a class="navbar-brand" href="#"><img src="img/logo.JPG" alt="Noesis"></a>
+                        <a class="navbar-brand" href="#"><img src="src/img/logo.JPG" alt="Noesis"></a>
+                        <ul class="social-media">
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-google-plus-g"></i></li>
+                            <li><i class="fab fa-linkedin-in"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                        </ul>
                     </nav>
                 </div>
         </div>
         <div id="body" role="body">
+            <div class="container">
+                <div class="col-12">
+                    <div class="card" style="width: 20rem;">
+                        <img src="src/img/id8.jpg" class="card-img-top" />
+                        <div class="card-body">
+                            <form class="login-form">
+                                <div class="form-group bg-light">
+                                    <input type="email" class="form-control bg-light" name="email" id="email" placeholder="Username">
+                                     </div>
+                                <div class="form-group bg-light">
+                                     <input type="password" class="form-control bg-light" name="password" id="password" placeholder="Password">
+                                </div>
+                                <div class="form-submit">
+                                    <input type="submit" value="Login"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- CAAARD  -->
+                </div>
 
+            </div>
 
         </div>
         <div id="footer" role="footer">
@@ -25,9 +54,9 @@
 
         </div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="src/js/jquery-3.2.1.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
     </body>
 
 </html>
