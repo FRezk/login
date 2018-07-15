@@ -1,11 +1,13 @@
 .custom-navbar {
-    background-color: rgba(39,94,159,0.95)
+    background-color: rgba(39,94,159,0.95);
+    height: 58px;
 }
+
 .card {
     margin: 0 auto;
     float: none;
     margin-bottom: 10px;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .card-body {
@@ -88,4 +90,24 @@
 
 .login-form .form-submit input:active {
     background-color: #233852;  
+}
+
+footer {
+    background-color: rgba(39,94,159,0.95);
+    margin-top: 60px;
+    display:flex;
+    color: white;
+    padding: 0 20px;
+}
+
+footer p {
+    flex-grow: 1;
+}
+
+footer p:first-child {
+    text-align: left;
+}
+
+footer p:last-child {
+    text-align: right;
 }
