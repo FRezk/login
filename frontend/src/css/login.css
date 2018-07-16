@@ -1,6 +1,29 @@
+
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  main {
+    padding-bottom: 40px;
+  }
+
 .custom-navbar {
     background-color: rgba(39,94,159,0.95);
-    height: 58px;
+    height: 71px;
 }
 
 .card {
@@ -112,26 +135,3 @@ footer p:first-child {
 footer p:last-child {
     text-align: right;
 }
-
-
-html,body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
-
-#wrapper {
-    min-height: 100%;
-    position: relative;
-}
-
-footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-
-  main {
-    padding-bottom: 40px;
-  }
