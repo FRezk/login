@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  
+  
+  <parent>
+    <groupId>br.com.rezk</groupId>
+    <artifactId>id8</artifactId>
+    <version>${id8.version}</version>
+  </parent>
+  
+  <artifactId>id8-api</artifactId>
+  <packaging>war</packaging>
+  <name>id8-api</name>
+  <description>id8 backend api layer</description>
+  
+  <dependencies>
+    <dependency>
+      <groupId>br.com.rezk</groupId>
+      <artifactId>id8-service</artifactId>
+      <version>${id8.version}</version>
+    </dependency>
+    
+    <dependency>
+		<groupId>org.wildfly.bom</groupId>
+		<artifactId>wildfly-javaee7</artifactId>
+		<version>10.0.1.Final</version>
+		<type>pom</type>
+	</dependency>
+    
+  </dependencies>
+  
+</project>
